@@ -1,0 +1,6 @@
+Hi First
+
+using synchronous file operations can block the event loop and may not be
+ suitable for applications with high concurrency. In production applications,
+  it's generally recommended to use asynchronous file operations (e.g., readFile and writeFile)
+ instead of the synchronous counterparts to avoid potential performance issues.
